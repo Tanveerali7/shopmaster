@@ -1,0 +1,117 @@
+<html>
+<head>
+<style>
+.portfoloioo-container{
+display:flex;
+flex-direction:column;
+padding:20px;
+}
+/*profile section*/
+.profile-section{
+display:flex;
+algin-items:center;
+margin-bottom:30px;
+}
+.bio{
+margin-left:20px;
+}
+.bio h2{
+font-size:24px;
+margin-bottom:10px;
+}
+.skill{
+background-color:#3498db;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+}
+/*project section*/
+.project-section{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.project-card{
+flex-basis:30px;
+background-color:#f4f4f4;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+*/Responsive design*/
+@media(max-width:800px){
+.project-section{
+flex-direction:column;
+}
+.project-card{
+flex-basis:100%;
+}
+}
+@media(max-width:600px){
+.products-section{
+grid-template-columns:lfr;
+}
+}
+@media(min-width:900px){
+.products-section{
+grid-template-columns:repeat(4,lfr);
+}
+}
+</style>
+</head>
+<body>
+
+<div> class="portfoloi-container">
+ <!--porfile section-->
+ <div clas="porfile-section">
+ <img src="download.jpg" alt="profile picture" width=150px">
+ <div class="bio">
+ <h2>John Doe</h2>
+ <p>web Developer with a passion for creating beantiful and responsive  websites.</p>
+ </div>
+ </div>
+ <!--Skills section-->
+ <div class="Skills-section">
+ <div class="skill">HTML</div>
+ <div class="skill">CSS</div>
+ <div class="skill">JavaScript</div>
+ <div class="skill">React</div>
+ </div>
+ <!--projects section-->
+ <div class="projects-section">
+ <div class="project-card">
+ <h3>project 1</h3>
+ <p>A responsive e-commerce website.</p>
+ </div>
+ <div class="project-card">
+ <h3>Porject 2</h3>
+ <p>A social media app built with React.</p>
+ </div>
+ </div class="project-card">
+ <h3>project 3</h3>
+ <p>A portfoloi site with responsive design.</p>
+ </div>
+ </div>
+ </div>
+ </body>
+ </html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
